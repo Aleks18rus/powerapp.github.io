@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Montserrat-Regular.woff') format('woff'),
+    url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'GetVoIP Grotesque Regular';
+        src: url('../fonts/GetVoIPGrotesque.eot');
+        src: url('../fonts/GetVoIPGrotesque.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GetVoIPGrotesque.woff') format('woff'),
+        url('../fonts/GetVoIPGrotesque.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        @font-face {
+            font-family: "GetVoIP Grotesque";
+            src: url("../fonts/getvoip-grotesque.eot"); 
+            src: url("../fonts/getvoip-grotesque.eot?#iefix") format("embedded-opentype"), 
+                url("../fonts/getvoip-grotesque.ttf") format("truetype"), 
+                url("../fonts/getvoip-grotesque.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+    @mixin GetVoIPBold {
+        font-family: "GetVoIP Grotesque";
+    }
+
+    @mixin MontReg {
+        font-family: 'Montserrat Regular',sans-serif;
+   
+    }
+
+    @mixin GetVoIPReg {
+        font-family: 'GetVoIP Grotesque Regular';
+    }
